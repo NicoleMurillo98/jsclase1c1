@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="./css/estilos.css" rel="stylesheet">
+        <style>
+          body{
+            background-image: url("./WhatsApp\ Image\ 2023-07-14\ at\ 1.21.18\ PM.jpeg");
+            height: 100vh;
+          }
+        </style>
+    </head>
+    <body>
+    <h1>EJERCICIOS CON NUMEROS</h1>
+    <table>
+      <tr>
+        <td colspan="5"><input id="dato-ingresado" value=""></td>
+      </tr>
+      <tr>
+        <!-- conversion de numero de base 10 a base 2,16,8 -->
+        <td><button onclick="x.cambiar_dinero()">Dar vuelto</button></td>
+        <td><button onclick="x.multiplo()">Multiplo</button></td>
+        <td><button onclick="x.divisor()">Divisores</button></td>
+        <!-- conversion de numero de base 2 a base 10,8,16 -->
+        <td><button onclick="x.sumaDivisores()">Suma de divisores</button></td>
+        <td><button onclick="x.contarDivisores()">Contar Divisores</button></td>
+      </tr>
+      <tr>
+        <td><button onclick="x.numeroPerfecto()">Numero Perfecto</button></td>
+        <!-- conversio de numero de base n a base n
+        se ingresan las dos bases  -->
+        <td><button onclick="x.numerosAmigos()">Numeros amigos</button></td>
+      <!-- Se ingresa valor de vuelto < 100
+      Ejemplo: vuelto = 77 respuesta= 1 billete de $50, 1$20, 1$5 y 2$1 -->
+        <td><button onclick="x.numeroPrimo()">Primo</button></td>
+      <!-- Se ingresa un numero natural < 100
+      Ejemplo: numero = 77 respuesta= LXXVII -->
+        <td><button onclick="x.primosGemelos()">Primos Gemelos</button></td>
+      <!-- Se ingresa la cadena y la subcadena si se encuentra la subcadena
+        dentro de la cadena se retorna la posicion inicial
+      Ejemplo: cadena = "Hola que tal" subcadena="que"
+      respuesta= 5 es la posicion de "que" en la cadena -->
+       <td><button onclick="x.numeroInvertido()">Numero Invertido</button></td>
+      </tr>
+      <tr>
+        <!-- Se retorna el mayor numero de un arreglo
+           Ejemplo: arreglo=[2,6,3] respuesta= 6 -->
+        <td><button onclick="x.cantidaDigitos()">cantidad digitos</button></td>
+        <!-- Se retorna el menor numero de un arreglo
+           Ejemplo: arreglo=[2,6,3] respuesta= 2 -->
+        <td><button onclick="x.factorial()">factorial</button></td>
+        <!-- Se retorna la posicion de un valor dentro de un arreglo
+           Ejemplo: arreglo=[2,6,3] buscado=6 respuesta= 1 es la posicion de 6 -->
+        <td><button onclick="x.exponente()">exponente</button></td>
+        <!-- Se elimina el elemento dentro de un arreglo si existe
+           Ejemplo: arreglo=[2,6,3] buscado=6 respuesta= [2,6] -->
+        <td><a href="./tablaMultiplicar.html"><button>Tabla de multiplicar</button></a></td>
+        <!-- Se inserta un valor dentro de un arreglo ordenado
+           Ejemplo: arreglo=[2,3,6] valor=4 respuesta= [2,3,4,6] -->
+        <td><button onclick="x.fibonacci()">Fibonacci</button></td>
+      </tr>
+      <tr>
+         
+      </tr>
+
+       <tr>
+        <td colspan="5"><button type="button" onclick="x.limpiar()">Limpiar</button></td>
+
+      </tr>
+     </table>
+     <br>
+   
+     <script src="./js/Proyecto.js">
+     </script>
+    </body>
+</html>
